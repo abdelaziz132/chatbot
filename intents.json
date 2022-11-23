@@ -1,0 +1,40 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi","Hey", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up" , "Good morning" , "Good evening" , "hello" , "hey" , "what's up"],
+         "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye","i have to go","gotta go"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "See you late","have a nice day","Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old are you", "what is your age","age?"],
+         "responses": ["I am old and wise", "trying to stay fit and young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you?"],
+         "responses": ["You can call me Zizo.", "I'm Zizo!", "I'm Zizo."],
+         "context_set": ""
+        },
+        {"tag": "help",
+         "patterns": ["Id like to ask something", "what can you do", "can you help me?", "can i tell you something"],
+         "responses": ["I'm here to help you!", "I can help you with whatever you tell me to."],
+         "context_set": ""
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks","Thank you","That is","Helpfull","Thanks for the help"],
+         "responses": ["Happy to help","Any time","My pleasura"],
+         "context_set": ""
+        },
+        {"tag": "complaint",
+         "patterns": ["Haev a complaint","I want to raise a complaint","There is a complaint"],
+         "responses": ["Customer sevice will responce to you soon"],
+         "context_set": ""
+        }
+        
+
+   ]
+}
